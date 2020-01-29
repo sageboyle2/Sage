@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="web-form.css">
+<html id="survey-form">
+  <h1 id="title">Survey Form</h1>
+  <p>Thank you for taking the time to help us improve the platform.</p>
+
+<div>
+  <form id="full-name">Full Name</form>
+    <input type="text" required id="full-name">
+</div>
+<br>
+<div>
+  <form id="email">Email Address</form>
+    <input type="text" required id="email">
+</div>
+<br>
+<div>
+  <form id="age">Age (Optional)</form>
+    <input type="text" required id="age">
+</div>
+<br>
+<div>
+  Which option best describes your current place of residence? <br>
+  <select id="cities">
+    <option value="cities">Lehi</option>
+    <option value="cities">American Fork</option>
+    <option value="cities">Eagle Mountain</option>
+    <option value="cities">Saratoga Springs</option>
+    <option value="cities">Lindon</option>
+    <option value="cities">Pleasant Grove</option>
+    <option value="cities">Orem</option>
+    <option value="cities">Provo</option>
+    </select>
+</div>
+<br>
+<div>
+  <form id="fav"></form>
+  <label for="fav">Would you recommend Utah County to a friend as a place to live?</label>
+  <p>
+    <input type="radio" name="fav" value="fav"> Definitely <br>
+    <input type="radio" name="fav" value="fav"> Maybe <br>
+    <input type="radio" name="fav" value="fav"> Not sure <br>
+</div>
+<br>
+<div>
+  <form id="improvement"></form>
+  <label for="improvement">What would you like to see improved?</label>
+  <p>
+    <input type="checkbox" name="improvement" value="improvement"> Cheaper Single Family Homes <br>
+    <input type="checkbox" name="improvement" value="improvement"> Park with pavillion for neighborhoods <br>
+    <input type="checkbox" name="improvement" value="improvement"> Better traffic flow <br>
+    <input type="checkbox" name="improvement" value="improvement"> Shopping mall <br>
+    <input type="checkbox" name="improvement" value="improvement"> High Density Apartments <br>
+  </p>
+</div>
+<div>
+  <form id="suggestions">Any comments or suggestions?</form>
+  <textarea rows="8" cols="80" class="textarea" type="text" required id="suggestions"></textarea>
+</div>
+<br>
+<div>
+  <button class="button button1">Submit</button>
+</div>
